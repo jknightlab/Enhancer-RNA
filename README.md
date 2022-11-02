@@ -8,7 +8,7 @@ eRNA analysis was performed on ±1000 bp regions centered on the `distal ATAC-se
  
 The strandedness of the `directional total RNA-seq reads` was extracted using Samtools, and the normalised bidirectional bedgrapgh files were generated using Bedtools and Bedops, and visualised through UCSC or WashU Epigenome Browser.
 
-This code has been tested on a Univa Grid Engine (UGE) batch-queuing system. Please set up a conda environment for runnin in a desktop, install the packages listed in the `requirements.txt` file, and also install the R kernel for Jupyter notebook.
+This code has been tested on a Univa Grid Engine (UGE) batch-queuing system. Please set up a conda environment for running on a desktop computer, install the packages listed in the `requirements.txt` file.
 
 ## Example commands:
 
@@ -32,10 +32,10 @@ Mapping/mapped.hisat2/*_chr.uniq.mapped.bam
 
 ```
 
-## Example result:
+## Schematic and example result:
 ![Screenshot](eRNA.png)
 
-see details about this result [here](https://genomebiology.biomedcentral.com/articles/10.1186/s13059-022-02702-1) - Zhang, P. *et al*. Epigenomic analysis reveals a dynamic and context-specific macrophage enhancer landscape associated with innate immune activation and tolerance. *Genome Biology* 23, 1-21 (2022).
+### see details about this result [here](https://genomebiology.biomedcentral.com/articles/10.1186/s13059-022-02702-1) - Zhang, P. *et al*. Epigenomic analysis reveals a dynamic and context-specific macrophage enhancer landscape associated with innate immune activation and tolerance. *Genome Biology* 23, 1-21 (2022).
 
 
 ## Contact
