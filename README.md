@@ -34,7 +34,7 @@ Mapping/mapped.hisat2/*_chr.uniq.mapped.bam
 ```
 
 ## Example result:
-![screenshot]()
+![Screenshot](eRNA.png)
 
 see details about this result [here](https://genomebiology.biomedcentral.com/articles/10.1186/s13059-022-02702-1) `Zhang, P. *et al*. Epigenomic analysis reveals a dynamic and context-specific macrophage enhancer landscape associated with innate immune activation and tolerance. Genome Biology 23, 1-21 (2022).`
 
