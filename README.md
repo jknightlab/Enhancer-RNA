@@ -6,7 +6,7 @@ This repository contains code to visualise and quantify the enhancer RNAs (eRNAs
 
 eRNA analysis was performed on ±1000 bp regions centered on the distal ATAC-seq peaks. First, the midpoint of each ATAC peak was extended with 1000 bp from left and right. Second, the regions that overlap with the gene boundaries (±3000 bp from both transcription start site and end site) of the expressed genes (maximum TPM  ≥1 across samples) were filtered out. Third, the remaining ATAC peaks (distal) were used as coordinates to count the number of uniquely-mapped total RNA-seq reads in each condition via the multicov function of bedtools. Those regions with RNA expression level of CPM (counts per million mapped reads) ≥1 were defined as eRNAs.
  
-The strandedness of the directional total RNA-seq reads was extracted using Samtools, and the normalised bidirectional bedgrapgh files were generated using Bedtools and Bedops, and visualised through the WashU Epigenome Browser.
+The strandedness of the directional total RNA-seq reads was extracted using Samtools, and the normalised bidirectional bedgrapgh files were generated using Bedtools and Bedops, and visualised through UCSC or WashU Epigenome Browser.
 
 This code has been tested on a Univa Grid Engine (UGE) batch-queuing system. Please set up a conda environment for runnin in a desktop, install the packages listed in the `requirements.txt` file, and also install the R kernel for Jupyter notebook.
 
