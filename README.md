@@ -8,13 +8,12 @@ eRNA analysis was performed on ±1000 bp regions centered on the distal ATAC-seq
  
 The strandedness of the directional total RNA-seq reads was extracted using Samtools, and the normalised bidirectional bedgrapgh files were generated using Bedtools and Bedops, and visualised through the WashU Epigenome Browser.
 
-
-This code has been tested on Python 3.6, and includes a number of Python scripts and Python/R Jupyter notebooks. Please set up a conda environment, install the packages listed in the `requirements.txt` file, and also install the R kernel for Jupyter notebook.
+This code has been tested on a Univa Grid Engine (UGE) batch-queuing system. Please set up a conda environment for runnin in a desktop, install the packages listed in the `requirements.txt` file, and also install the R kernel for Jupyter notebook.
 
 ## Example commands:
 
 ```
-sh ./data.sh
+qsub ./data.sh
 
 ```
 ## 
