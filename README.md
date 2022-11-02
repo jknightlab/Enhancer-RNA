@@ -20,7 +20,7 @@ sh ./data.sh
 
 ## 
 
-Additionally, run
+Alternatively, run the following script to quantify eRNA via featureCounts.
 
 ```
 awk 'OFS="\t" {print $1":"$2"-"$3, $1, $4, $5, "."}' merged.peaks_midpoint.1kb_distal.bed > peak.saf
@@ -33,7 +33,6 @@ awk 'OFS="\t" {print $1":"$2"-"$3, $1, $4, $5, "."}' merged.peaks_midpoint.1kb_d
 Mapping/mapped.hisat2/*_chr.uniq.mapped.bam
 
 ```
-to quantify eRNA counts using featureCounts.
 
 
 ## Contact
