@@ -34,11 +34,10 @@ Mapping/mapped.hisat2/*_chr.uniq.mapped.bam
 
 ## Schematic and example result:
 ![Screenshot](eRNA.png)
-
 #### see details about this result [here](https://genomebiology.biomedcentral.com/articles/10.1186/s13059-022-02702-1) - Zhang, P. *et al*. Epigenomic analysis reveals a dynamic and context-specific macrophage enhancer landscape associated with innate immune activation and tolerance. *Genome Biology* 23, 1-21 (2022).
 
 ## Example result based on the test data:
 ![Screenshot](eRNA2.png)
 
 ## Contact
-Please [email](ping.zhang@well.ox.ac.uk) with any questions about this repository, additional information about the results, requests for more test data etc.
+Please [email](mailto:ping.zhang@well.ox.ac.uk) with any questions about this repository, additional information about the results, requests for more test data etc.
