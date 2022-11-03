@@ -41,4 +41,4 @@ Mapping/mapped.hisat2/*_chr.uniq.mapped.bam
 ![Screenshot](eRNA2.png)
 
 ## Contact
-Please post in the Github issues or send an email to ping.zhang@well.ox.ac.uk with any questions about this repository, additional information about the results, requests for more test data etc.
+email to pzhang@well.ox.ac.uk with any questions about this repository, additional information about the results, requests for more test data etc.
