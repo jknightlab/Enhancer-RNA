@@ -21,7 +21,7 @@ qsub ./data.sh
 Alternatively, run the following script to quantify eRNA via featureCounts.
 
 ```
-awk 'OFS="\t" {print $1":"$2"-"$3, $1, $4, $5, "."}' merged.peaks_midpoint.1kb_distal.bed > peak.saf
+awk 'OFS="\t" {print $1":"$2"-"$3, $1, $4, $5, "."}' test.data/distal.ATAC.regions.Chr7.txt > peak.saf
 
 /apps/htseq/subread-1.6.4-Linux-x86_64/bin/featureCounts -T 12 \
 -p \
@@ -37,6 +37,8 @@ Mapping/mapped.hisat2/*_chr.uniq.mapped.bam
 
 #### see details about this result [here](https://genomebiology.biomedcentral.com/articles/10.1186/s13059-022-02702-1) - Zhang, P. *et al*. Epigenomic analysis reveals a dynamic and context-specific macrophage enhancer landscape associated with innate immune activation and tolerance. *Genome Biology* 23, 1-21 (2022).
 
+## Example result based on the test data:
+![Screenshot](eRNA2.png)
 
 ## Contact
 Please post in the Github issues or send an email to ping.zhang@well.ox.ac.uk with any questions about this repository, additional information about the results, requests for more test data etc.
