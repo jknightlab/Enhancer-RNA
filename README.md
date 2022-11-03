@@ -13,7 +13,7 @@ This code has been tested on a Univa Grid Engine (UGE) batch-queuing system. Ple
 ## Example commands:
 
 ```
-qsub ./data.sh
+sh ./data.sh
 
 ```
 ## 
