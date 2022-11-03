@@ -1,12 +1,11 @@
-SAMtools
-(module load SAMtools/1.9-foss-2018b)
-deepTools
+-SAMtools
+(module load SAMtools/1.10-GCC-8.3.0)
+-deepTools
 (module load deepTools/3.3.1-foss-2018b-Python-3.6.6)
-bedtools
+-bedtools
 (/bedtools/2.27.0/bin/bedtools)
-R
+-R
 (R version 4.2.1 (2022-06-23))
 library(DESeq2)
 library(ggplot2)
 library(data.table)
-
