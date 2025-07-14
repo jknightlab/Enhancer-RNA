@@ -21,7 +21,7 @@ sh ./data.sh
 Alternatively, run the following script to quantify eRNA via featureCounts.
 
 ```
-awk 'OFS="\t" {print $1":"$2"-"$3, $1, $4, $5, "."}' test.data/distal.ATAC.regions.Chr7.txt > peak.saf
+awk 'OFS="\t" {print $1":"$2"-"$3, $1, $2, $3, "."}' test.data/distal.ATAC.regions.Chr7.txt > peak.saf
 
 /apps/htseq/subread-1.6.4-Linux-x86_64/bin/featureCounts -T 12 \
 -p \
@@ -40,4 +40,4 @@ Mapping/mapped.hisat2/*_chr.uniq.mapped.bam
 ![Screenshot](eRNA2.png)
 
 ## Contact
-Please [email](mailto:ping.zhang@well.ox.ac.uk) with any questions about this repository, additional information about the results, requests for more test data etc.
+For questions about this repository, requests for additional data, or further details about the results, please contact: pzhang@well.ox.ac.uk.
